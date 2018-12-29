@@ -8,9 +8,6 @@ class Triangle
     @c = c
   end
 
-  def self.add
-    triangle_sides << self
-  end
 
   def valid? #validate if it's a triangle
     #if triangle_sides = (0, 0, 0) => raise TriangleError
