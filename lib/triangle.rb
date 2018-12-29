@@ -13,8 +13,8 @@ class Triangle
     #if triangle_sides = (3, 5, -2) => raise TriangleError
     #if triangle_sides = (certain inequalities) => TriangleError
     sum_one = @a + @b
-    sum_two = @a + @c 
-    sum_three = @b + @c 
+    sum_two = @a + @c
+    sum_three = @b + @c
 
     if (@triangle_sides.none? {|side| side <= 0}) && (sum_one > @c && sum_two > @b && sum_three > @a)
   end
